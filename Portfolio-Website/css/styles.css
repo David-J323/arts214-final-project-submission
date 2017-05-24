@@ -1,0 +1,1165 @@
+/* line 4, ../styles-sass/styles.scss */
+body {
+  background: #f9ec23;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Bauhaus 93';
+  src: url("Bauhaus-93_6274.ttf") format("truetype");
+}
+
+/* line 31, ../styles-sass/styles.scss */
+p {
+  font-family: Oxygen, sans-serif;
+  color: #0a0a0a;
+}
+
+/* line 36, ../styles-sass/styles.scss */
+.page1 {
+  background-color: #0a0a0a;
+  width: 1600px;
+}
+
+/* line 41, ../styles-sass/styles.scss */
+.background {
+  background-image: url(../img/brand-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-color: #0a0a0a;
+  opacity: .1;
+  width: 1600px;
+  height: 770px;
+}
+
+/* line 52, ../styles-sass/styles.scss */
+header {
+  color: #f9ec23;
+  position: relative;
+  left: 616px;
+  bottom: 530px;
+  width: 350px;
+}
+
+/* line 60, ../styles-sass/styles.scss */
+header h1 {
+  font-family: 'Bauhaus 93';
+  font-size: 50px;
+}
+
+/* line 65, ../styles-sass/styles.scss */
+.logo {
+  position: relative;
+  left: 555px;
+  bottom: 520px;
+  width: 200px;
+}
+
+/* line 72, ../styles-sass/styles.scss */
+nav {
+  float: left;
+  position: fixed;
+  z-index: 100;
+}
+
+/* line 78, ../styles-sass/styles.scss */
+.icons div {
+  position: fixed;
+  z-index: 10000px;
+}
+
+/* line 83, ../styles-sass/styles.scss */
+.home {
+  left: 297px;
+  width: 200px;
+  top: 659px;
+}
+
+/* line 89, ../styles-sass/styles.scss */
+.aboutme {
+  left: 594px;
+  width: 200px;
+  top: 656px;
+}
+
+/* line 95, ../styles-sass/styles.scss */
+.work {
+  left: 891px;
+  width: 200px;
+  top: 660px;
+}
+
+/* line 101, ../styles-sass/styles.scss */
+.contactme {
+  left: 1188px;
+  width: 200px;
+  top: 655px;
+}
+
+/* line 107, ../styles-sass/styles.scss */
+.rightarrow {
+  left: 1389.96px;
+  width: 200px;
+  top: 340px;
+}
+
+/* line 113, ../styles-sass/styles.scss */
+.leftarrow {
+  left: 20.79px;
+  width: 200px;
+  top: 340px;
+}
+
+/* line 119, ../styles-sass/styles.scss */
+.page2 {
+  position: relative;
+  left: 1600px;
+  width: 1600px;
+  bottom: 700px;
+}
+
+/* line 126, ../styles-sass/styles.scss */
+#aboutme img {
+  position: relative;
+  bottom: 130px;
+}
+
+/* line 131, ../styles-sass/styles.scss */
+#blackbar1 {
+  background-color: #0a0a0a;
+  position: relative;
+  width: 455px;
+  height: 40px;
+  top: 245px;
+  left: 880.0px;
+}
+
+/* line 140, ../styles-sass/styles.scss */
+#blackbar2 {
+  background-color: #0a0a0a;
+  position: relative;
+  width: 480px;
+  height: 240px;
+  top: 295px;
+  left: 880.0px;
+}
+
+/* line 149, ../styles-sass/styles.scss */
+#blackbar3 {
+  background-color: #0a0a0a;
+  position: relative;
+  width: 200px;
+  height: 40px;
+  top: 10px;
+  left: 265.6px;
+  z-index: 100;
+}
+
+/* line 159, ../styles-sass/styles.scss */
+#aboutme {
+  position: relative;
+  height: 800px;
+  bottom: 440px;
+}
+
+/* line 165, ../styles-sass/styles.scss */
+#aboutme h1 {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 2.5rem;
+  color: #0a0a0a;
+  width: 455px;
+  position: relative;
+  left: 880.0px;
+  bottom: 750px;
+}
+
+/* line 175, ../styles-sass/styles.scss */
+#aboutme h2 {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 3rem;
+  color: #0a0a0a;
+  width: 700px;
+  position: relative;
+  left: 1328px;
+  bottom: 930px;
+  opacity: .07;
+}
+
+/* line 186, ../styles-sass/styles.scss */
+#aboutme p {
+  font-family: Oxygen, sans-serif;
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  position: relative;
+  width: 480px;
+  left: 880.0px;
+  bottom: 748px;
+  line-height: 30px;
+}
+
+/* line 198, ../styles-sass/styles.scss */
+.page3 {
+  background-image: url(../img/KSKlogo.jpg), url(../img/Media-Kit-Ino-page1.jpg), url(../img/oops.jpg);
+  background-repeat: no-repeat;
+  background-size: 14%, 25%, 10%;
+  background-position: 280px 136px, 280px 370px, 520px 200px;
+  position: relative;
+  left: 3200px;
+  width: 1600px;
+  bottom: 1900px;
+}
+
+/* line 211, ../styles-sass/styles.scss */
+#work {
+  position: relative;
+  height: 800px;
+}
+
+/* line 216, ../styles-sass/styles.scss */
+#work h1 {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 2.5rem;
+  position: relative;
+  left: 880.0px;
+  bottom: 2205px;
+  width: 400px;
+}
+
+/* line 225, ../styles-sass/styles.scss */
+#work h2 {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 3rem;
+  color: #0a0a0a;
+  width: 700px;
+  position: relative;
+  left: 1328px;
+  bottom: 2390px;
+  opacity: .07;
+}
+
+/* line 236, ../styles-sass/styles.scss */
+#work p {
+  font-family: Oxygen, sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  width: 480px;
+  left: 880.0px;
+  bottom: 2205px;
+  line-height: 30px;
+}
+
+/* line 246, ../styles-sass/styles.scss */
+.toparrow {
+  position: relative;
+  top: 25px;
+  width: 200px;
+  left: 704px;
+}
+
+/* line 253, ../styles-sass/styles.scss */
+.page4 {
+  position: relative;
+  left: 4800px;
+  background-color: #f9ec23;
+  width: 1600px;
+  bottom: 2200px;
+}
+
+/* line 262, ../styles-sass/styles.scss */
+#contact {
+  position: relative;
+  bottom: 498px;
+  height: 770px;
+}
+
+/* line 268, ../styles-sass/styles.scss */
+#bar1 {
+  position: relative;
+  width: 960px;
+  height: 770px;
+  background-color: #0a0a0a;
+  top: 19px;
+}
+
+/* line 276, ../styles-sass/styles.scss */
+#contact h1 {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 3rem;
+  color: #0a0a0a;
+  width: 700px;
+  position: relative;
+  left: 1328px;
+  bottom: 708.4px;
+  opacity: .07;
+}
+
+/* line 289, ../styles-sass/styles.scss */
+#info h1 {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 2.5rem;
+  position: relative;
+  left: 1040px;
+  bottom: 615px;
+  width: 300px;
+  opacity: 1;
+}
+
+/* line 299, ../styles-sass/styles.scss */
+#info p {
+  font-family: Oxygen, sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  width: 480px;
+  left: 1040px;
+  bottom: 595px;
+  line-height: 30px;
+}
+
+/* line 309, ../styles-sass/styles.scss */
+form {
+  color: #f9ec23;
+  position: relative;
+  bottom: 770px;
+  left: 336px;
+}
+
+/* line 316, ../styles-sass/styles.scss */
+#contact label {
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  font-size: 1.5rem;
+}
+
+/* line 321, ../styles-sass/styles.scss */
+#contact input {
+  font-family: Oxygen, sans-serif;
+  width: 320px;
+  padding: 10px 15px;
+  margins: 8px 0;
+  box-sizing: border-box;
+}
+
+/* line 329, ../styles-sass/styles.scss */
+#contact input[name=Subject] {
+  position: relative;
+  height: 231px;
+  padding-bottom: 200px;
+  resize: none;
+}
+
+/* line 336, ../styles-sass/styles.scss */
+.contentpage {
+  position: relative;
+  width: 1600px;
+  height: 2310px;
+  background-color: #0a0a0a;
+  bottom: 2390px;
+  z-index: 1;
+}
+
+/* line 345, ../styles-sass/styles.scss */
+.freebird {
+  background-image: url(../img/ASA-FlyerV3.jpg), url(../img/KSKlogo.jpg), url(../img/ASA-flyer-Final.png);
+  background-position: 100px 50px, 116px 430px, 400px 130px;
+  background-repeat: no-repeat;
+  background-size: 18%, 17%, 25%;
+  position: relative;
+  height: 770px;
+  bottom: 770px;
+  z-index: 200;
+  background-color: #0a0a0a;
+}
+
+/* line 359, ../styles-sass/styles.scss */
+.freebird img {
+  position: absolute;
+  left: 744px;
+}
+
+/* line 364, ../styles-sass/styles.scss */
+.freebird h1 {
+  position: relative;
+  font-family: "Bauhaus 93", helvetica, san-serif;
+  color: #f9ec23;
+  font-size: 3rem;
+  left: 880.0px;
+  top: 200px;
+}
+
+/* line 373, ../styles-sass/styles.scss */
+.freebird p {
+  position: relative;
+  font-family: Oxygen, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  left: 880.0px;
+  width: 300px;
+  top: 250px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 481px) {
+  /* line 392, ../styles-sass/styles.scss */
+  .page1 {
+    background-color: #0a0a0a;
+    width: 600px;
+  }
+
+  /* line 397, ../styles-sass/styles.scss */
+  .background {
+    background-image: url(../img/brand-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: -85px;
+    background-size: 800px;
+    background-color: #0a0a0a;
+    opacity: .1;
+    width: 600px;
+    height: 800px;
+  }
+
+  /* line 409, ../styles-sass/styles.scss */
+  header {
+    color: #f9ec23;
+    position: relative;
+    left: 132px;
+    bottom: 530px;
+    width: 350px;
+  }
+
+  /* line 417, ../styles-sass/styles.scss */
+  header h1 {
+    font-family: 'Bauhaus 93';
+    font-size: 50px;
+  }
+
+  /* line 422, ../styles-sass/styles.scss */
+  .logo {
+    position: relative;
+    left: 70px;
+    bottom: 520px;
+    width: 50px;
+  }
+
+  /* line 429, ../styles-sass/styles.scss */
+  nav {
+    float: left;
+    position: fixed;
+    z-index: 100;
+  }
+
+  /* line 435, ../styles-sass/styles.scss */
+  .icons div {
+    position: fixed;
+    z-index: 10000px;
+  }
+
+  /* line 440, ../styles-sass/styles.scss */
+  .home {
+    left: 60px;
+    width: 200px;
+    top: 9px;
+  }
+
+  /* line 446, ../styles-sass/styles.scss */
+  .aboutme {
+    left: 180px;
+    width: 200px;
+    top: 6px;
+  }
+
+  /* line 452, ../styles-sass/styles.scss */
+  .work {
+    left: 300px;
+    width: 200px;
+    top: 10px;
+  }
+
+  /* line 458, ../styles-sass/styles.scss */
+  .contactme {
+    left: 420px;
+    width: 200px;
+    top: 5px;
+  }
+
+  /* line 464, ../styles-sass/styles.scss */
+  .rightarrow {
+    left: 410.4px;
+    width: 200px;
+    top: 650px;
+  }
+
+  /* line 470, ../styles-sass/styles.scss */
+  .leftarrow {
+    left: 8.4px;
+    width: 200px;
+    top: 650px;
+  }
+
+  /* line 482, ../styles-sass/styles.scss */
+  .page2 {
+    position: relative;
+    left: 600px;
+    width: 600px;
+    bottom: 700px;
+  }
+
+  /* line 489, ../styles-sass/styles.scss */
+  #aboutme img {
+    position: relative;
+    top: 70px;
+    right: 30px;
+  }
+
+  /* line 495, ../styles-sass/styles.scss */
+  #blackbar1 {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 455px;
+    height: 40px;
+    top: 125px;
+    left: 48px;
+  }
+
+  /* line 504, ../styles-sass/styles.scss */
+  #blackbar2 {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 480px;
+    height: 240px;
+    top: 130px;
+    left: 48px;
+  }
+
+  /* line 513, ../styles-sass/styles.scss */
+  #blackbar3 {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    top: 200px;
+    left: 240px;
+    z-index: 100;
+  }
+
+  /* line 523, ../styles-sass/styles.scss */
+  #aboutme {
+    position: relative;
+    height: 800px;
+    bottom: 440px;
+  }
+
+  /* line 529, ../styles-sass/styles.scss */
+  #aboutme h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2.5rem;
+    color: #0a0a0a;
+    width: 455px;
+    position: relative;
+    left: 50px;
+    bottom: 870px;
+  }
+
+  /* line 539, ../styles-sass/styles.scss */
+  #aboutme h2 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 700px;
+    position: relative;
+    left: 438px;
+    bottom: 970px;
+    opacity: .07;
+  }
+
+  /* line 550, ../styles-sass/styles.scss */
+  #aboutme p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1rem;
+    color: #0a0a0a;
+    position: relative;
+    width: 360px;
+    left: 50px;
+    bottom: 880px;
+    line-height: 30px;
+  }
+
+  /* line 561, ../styles-sass/styles.scss */
+  .page3 {
+    background-image: url(../img/KSKlogo.jpg), url(../img/Media-Kit-Ino-page1.jpg), url(../img/oops.jpg);
+    background-repeat: no-repeat;
+    background-size: 28%, 50%, 20%;
+    background-position: 140px 350px, 140px 525px, 320px 398px;
+    position: relative;
+    left: 1200px;
+    width: 600px;
+    bottom: 1900px;
+  }
+
+  /* line 574, ../styles-sass/styles.scss */
+  #work {
+    position: relative;
+    height: 800px;
+  }
+
+  /* line 579, ../styles-sass/styles.scss */
+  #work h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2.5rem;
+    position: relative;
+    left: 48px;
+    bottom: 2328px;
+    width: 400px;
+  }
+
+  /* line 588, ../styles-sass/styles.scss */
+  #work h2 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 700px;
+    position: relative;
+    left: 498px;
+    bottom: 2431px;
+    opacity: .07;
+  }
+
+  /* line 599, ../styles-sass/styles.scss */
+  #work p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    width: 360px;
+    left: 48px;
+    bottom: 2337px;
+    line-height: 30px;
+  }
+
+  /* line 609, ../styles-sass/styles.scss */
+  .toparrow {
+    position: relative;
+    top: -10px;
+    width: 200px;
+    left: 220.0px;
+  }
+
+  /* line 616, ../styles-sass/styles.scss */
+  .contentpage {
+    position: relative;
+    width: 600px;
+    height: 2310px;
+    background-color: #0a0a0a;
+    bottom: 2420px;
+    z-index: 1;
+  }
+
+  /* line 625, ../styles-sass/styles.scss */
+  .freebird {
+    background-image: url(../img/ASA-FlyerV3.jpg), url(../img/KSKlogo.jpg), url(../img/ASA-flyer-Final.png);
+    background-position: 100px 250px, 67px 467px, 270px 370px;
+    background-repeat: no-repeat;
+    background-size: 24%, 22%, 30%;
+    position: relative;
+    height: 770px;
+    bottom: 770px;
+    z-index: 200;
+    background-color: #0a0a0a;
+  }
+
+  /* line 639, ../styles-sass/styles.scss */
+  .freebird img {
+    position: absolute;
+    left: 744px;
+  }
+
+  /* line 644, ../styles-sass/styles.scss */
+  .freebird h1 {
+    position: relative;
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    color: #f9ec23;
+    font-size: 3rem;
+    left: 880.0px;
+    top: 30px;
+  }
+
+  /* line 653, ../styles-sass/styles.scss */
+  .freebird p {
+    position: relative;
+    font-family: Oxygen, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    left: 880.0px;
+    width: 300px;
+    top: 60px;
+  }
+
+  /* line 663, ../styles-sass/styles.scss */
+  .page4 {
+    position: relative;
+    left: 1800px;
+    background-color: #f9ec23;
+    width: 1600px;
+    bottom: 2230px;
+  }
+
+  /* line 672, ../styles-sass/styles.scss */
+  #contact {
+    position: relative;
+    bottom: 498px;
+    height: 770px;
+  }
+
+  /* line 678, ../styles-sass/styles.scss */
+  #bar1 {
+    position: relative;
+    width: 320px;
+    height: 800px;
+    background-color: #0a0a0a;
+    top: 19px;
+  }
+
+  /* line 686, ../styles-sass/styles.scss */
+  #contact h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 700px;
+    position: relative;
+    left: 456px;
+    bottom: 750.75px;
+    opacity: .07;
+  }
+
+  /* line 699, ../styles-sass/styles.scss */
+  #info h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2.5rem;
+    position: relative;
+    left: 336.0px;
+    bottom: 615px;
+    width: 300px;
+    opacity: 1;
+  }
+
+  /* line 709, ../styles-sass/styles.scss */
+  #info p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    width: 240px;
+    left: 336.0px;
+    bottom: 595px;
+    line-height: 30px;
+  }
+
+  /* line 719, ../styles-sass/styles.scss */
+  form {
+    color: #f9ec23;
+    position: relative;
+    bottom: 800px;
+    left: 48px;
+  }
+
+  /* line 726, ../styles-sass/styles.scss */
+  #contact label {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 1.5rem;
+  }
+
+  /* line 731, ../styles-sass/styles.scss */
+  #contact input {
+    font-family: Oxygen, sans-serif;
+    width: 240px;
+    padding: 10px 15px;
+    margins: 8px 0;
+    box-sizing: border-box;
+  }
+
+  /* line 739, ../styles-sass/styles.scss */
+  #contact input[name=Subject] {
+    position: relative;
+    height: 231px;
+    padding-bottom: 200px;
+    resize: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 755, ../styles-sass/styles.scss */
+  .page1 {
+    background-color: #0a0a0a;
+    width: 480px;
+  }
+
+  /* line 760, ../styles-sass/styles.scss */
+  .background {
+    background-image: url(../img/brand-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 720px;
+    background-position: -90px;
+    background-color: #0a0a0a;
+    opacity: .1;
+    width: 480px;
+    height: 700px;
+  }
+
+  /* line 772, ../styles-sass/styles.scss */
+  header {
+    color: #f9ec23;
+    position: relative;
+    left: 72px;
+    bottom: 530px;
+    width: 350px;
+  }
+
+  /* line 780, ../styles-sass/styles.scss */
+  header h1 {
+    font-family: 'Bauhaus 93';
+    font-size: 50px;
+  }
+
+  /* line 785, ../styles-sass/styles.scss */
+  .logo {
+    position: relative;
+    left: 1px;
+    bottom: 520px;
+    width: 50px;
+  }
+
+  /* line 792, ../styles-sass/styles.scss */
+  nav {
+    float: left;
+    position: fixed;
+    z-index: 100;
+  }
+
+  /* line 798, ../styles-sass/styles.scss */
+  .icons div {
+    position: fixed;
+    z-index: 10000px;
+  }
+
+  /* line 803, ../styles-sass/styles.scss */
+  .home {
+    left: 12px;
+    width: 200px;
+    top: 9px;
+  }
+
+  /* line 809, ../styles-sass/styles.scss */
+  .aboutme {
+    left: 132px;
+    width: 200px;
+    top: 6px;
+  }
+
+  /* line 815, ../styles-sass/styles.scss */
+  .work {
+    left: 252px;
+    width: 200px;
+    top: 10px;
+  }
+
+  /* line 821, ../styles-sass/styles.scss */
+  .contactme {
+    left: 372px;
+    width: 200px;
+    top: 5px;
+  }
+
+  /* line 827, ../styles-sass/styles.scss */
+  .rightarrow {
+    left: 290.4px;
+    width: 200px;
+    top: 550px;
+  }
+
+  /* line 833, ../styles-sass/styles.scss */
+  .leftarrow {
+    left: 8.4px;
+    width: 200px;
+    top: 550px;
+  }
+
+  /* line 845, ../styles-sass/styles.scss */
+  .page2 {
+    position: relative;
+    left: 480px;
+    width: 480px;
+    bottom: 700px;
+  }
+
+  /* line 852, ../styles-sass/styles.scss */
+  #aboutme img {
+    position: relative;
+    top: 100px;
+    right: 100px;
+  }
+
+  /* line 858, ../styles-sass/styles.scss */
+  #blackbar1 {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    top: 188px;
+    left: 48px;
+  }
+
+  /* line 867, ../styles-sass/styles.scss */
+  #blackbar2 {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 400px;
+    height: 240px;
+    top: 200px;
+    left: 48px;
+  }
+
+  /* line 876, ../styles-sass/styles.scss */
+  #blackbar3 {
+    background-color: #0a0a0a;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    top: 230px;
+    left: 168.0px;
+    z-index: 100;
+  }
+
+  /* line 886, ../styles-sass/styles.scss */
+  #aboutme {
+    position: relative;
+    height: 800px;
+    bottom: 440px;
+  }
+
+  /* line 892, ../styles-sass/styles.scss */
+  #aboutme h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 455px;
+    position: relative;
+    left: 50px;
+    bottom: 800px;
+  }
+
+  /* line 902, ../styles-sass/styles.scss */
+  #aboutme h2 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 700px;
+    position: relative;
+    left: 321.6px;
+    bottom: 875px;
+    opacity: .07;
+  }
+
+  /* line 913, ../styles-sass/styles.scss */
+  #aboutme p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1rem;
+    color: #0a0a0a;
+    position: relative;
+    width: 360px;
+    left: 50px;
+    bottom: 820px;
+    line-height: 30px;
+  }
+
+  /* line 924, ../styles-sass/styles.scss */
+  .page3 {
+    background-image: url(../img/KSKlogo.jpg), url(../img/Media-Kit-Ino-page1.jpg), url(../img/oops.jpg);
+    background-repeat: no-repeat;
+    background-size: 28%, 50%, 20%;
+    background-position: 140px 350px, 140px 525px, 320px 398px;
+    position: relative;
+    left: 960px;
+    width: 480px;
+    bottom: 1900px;
+  }
+
+  /* line 937, ../styles-sass/styles.scss */
+  #work {
+    position: relative;
+    height: 800px;
+  }
+
+  /* line 942, ../styles-sass/styles.scss */
+  #work h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    position: relative;
+    left: 48px;
+    bottom: 2258px;
+    width: 400px;
+  }
+
+  /* line 951, ../styles-sass/styles.scss */
+  #work h2 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 700px;
+    position: relative;
+    left: 402px;
+    bottom: 2331px;
+    opacity: .07;
+  }
+
+  /* line 962, ../styles-sass/styles.scss */
+  #work p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    width: 360px;
+    left: 48px;
+    bottom: 2278px;
+    line-height: 30px;
+  }
+
+  /* line 972, ../styles-sass/styles.scss */
+  .toparrow {
+    position: relative;
+    top: 70px;
+    width: 200px;
+    left: 176px;
+  }
+
+  /* line 979, ../styles-sass/styles.scss */
+  .contentpage {
+    position: relative;
+    width: 600px;
+    height: 2310px;
+    background-color: #0a0a0a;
+    bottom: 2420px;
+    z-index: 1;
+  }
+
+  /* line 988, ../styles-sass/styles.scss */
+  .freebird {
+    background-image: url(../img/ASA-FlyerV3.jpg), url(../img/KSKlogo.jpg), url(../img/ASA-flyer-Final.png);
+    background-position: 120px 390px, 132px 587px, 280px 470px;
+    background-repeat: no-repeat;
+    background-size: 24%, 22%, 30%;
+    position: relative;
+    height: 770px;
+    bottom: 770px;
+    z-index: 200;
+    background-color: #0a0a0a;
+  }
+
+  /* line 1002, ../styles-sass/styles.scss */
+  .freebird img {
+    position: absolute;
+    left: 744px;
+  }
+
+  /* line 1007, ../styles-sass/styles.scss */
+  .freebird h1 {
+    position: relative;
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    color: #f9ec23;
+    font-size: 3rem;
+    left: 880.0px;
+    bottom: 20px;
+  }
+
+  /* line 1016, ../styles-sass/styles.scss */
+  .freebird p {
+    position: relative;
+    font-family: Oxygen, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    left: 880.0px;
+    width: 300px;
+  }
+
+  /* line 1025, ../styles-sass/styles.scss */
+  .page4 {
+    position: relative;
+    left: 1440px;
+    background-color: #f9ec23;
+    width: 1600px;
+    bottom: 2230px;
+  }
+
+  /* line 1034, ../styles-sass/styles.scss */
+  #contact {
+    position: relative;
+    bottom: 498px;
+    height: 770px;
+  }
+
+  /* line 1040, ../styles-sass/styles.scss */
+  #bar1 {
+    position: relative;
+    width: 244.8px;
+    height: 800px;
+    background-color: #0a0a0a;
+    top: 19px;
+  }
+
+  /* line 1048, ../styles-sass/styles.scss */
+  #contact h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    color: #0a0a0a;
+    width: 700px;
+    position: relative;
+    left: 348px;
+    bottom: 662.2px;
+    opacity: .07;
+  }
+
+  /* line 1061, ../styles-sass/styles.scss */
+  #info h1 {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 2rem;
+    position: relative;
+    left: 252px;
+    bottom: 615px;
+    width: 300px;
+    opacity: 1;
+  }
+
+  /* line 1071, ../styles-sass/styles.scss */
+  #info p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    width: 180px;
+    left: 252px;
+    bottom: 595px;
+    line-height: 30px;
+  }
+
+  /* line 1081, ../styles-sass/styles.scss */
+  form {
+    color: #f9ec23;
+    position: relative;
+    bottom: 800px;
+    left: 30px;
+  }
+
+  /* line 1088, ../styles-sass/styles.scss */
+  #contact label {
+    font-family: "Bauhaus 93", helvetica, san-serif;
+    font-size: 1.5rem;
+  }
+
+  /* line 1093, ../styles-sass/styles.scss */
+  #contact input {
+    font-family: Oxygen, sans-serif;
+    width: 192px;
+    padding: 7px 10px;
+    margins: 8px 0;
+    box-sizing: border-box;
+  }
+
+  /* line 1101, ../styles-sass/styles.scss */
+  #contact input[name=Subject] {
+    position: relative;
+    height: 231px;
+    padding-bottom: 200px;
+    resize: none;
+  }
+}

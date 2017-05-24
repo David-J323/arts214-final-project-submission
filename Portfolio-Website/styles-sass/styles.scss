@@ -1,0 +1,1112 @@
+$primary-color: rgb(10, 10, 10);
+$secondary-color: rgb(249, 236, 35);
+
+body {
+	background: $secondary-color;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'Bauhaus 93';
+	src: url('Bauhaus-93_6274.ttf') format('truetype');
+}
+
+$font-stack: Oxygen, sans-serif;
+$width: 200px;
+$width--2: 50px;
+$nav: 297px;
+$nav--2: 120px;
+$container: 1600px;
+$container--2: 800px; 
+$primary-font: 'Bauhaus 93', helvetica, san-serif;
+$line-spacing: 30px;
+$bg-height: 770px;
+$bg-height--2: 700px;
+$contentpage: 770px;
+$contentpage--2: 700px;
+$img-height: 670px;
+$img-height--2: 600px;
+$container--tablet: 600px;
+$container--phone: 480px;
+p {
+	font-family: $font-stack;
+	color: $primary-color;
+}
+
+.page1 {
+	background-color: $primary-color;
+	width: $container;	
+}
+
+.background {
+	background-image: url(../img/brand-photo.jpg);
+	background-repeat: no-repeat;
+	background-size: $container;
+	background-color: $primary-color;
+	opacity: .1;
+	width: $container;
+	height: 770px;
+}
+
+
+header {
+	color: $secondary-color;
+	position: relative;
+	left: $container*.385;
+	bottom: 530px;
+	width: 350px;
+}
+
+header h1 {
+	font-family: 'Bauhaus 93';
+	font-size: 50px;
+}
+
+.logo {
+	position: relative;
+	left: 555px;
+    bottom: 520px;
+	width:  $width;
+}
+
+nav {
+	float: left;
+	position: fixed;
+	z-index: 100;
+}
+
+.icons div {
+	position: fixed;
+	z-index: 10000px;
+}
+
+.home {
+	left: $nav;
+	width: $width;
+	top: 659px;
+}
+
+.aboutme {
+	left: $nav*2;
+	width: $width;
+	top: 656px;
+}
+
+.work {
+	left: $nav*3;
+	width:  $width;
+	top: 660px;
+}
+
+.contactme {
+	left: $nav*4;
+	width: $width;
+	top: 655px;
+}
+
+.rightarrow {
+	left: $nav*4.68;
+	width: $width;
+	top: 340px
+}
+
+.leftarrow {
+	left:$nav*.07;
+	width: $width;
+	top: 340px;
+}
+
+.page2 {
+	position: relative;
+	left: $container;
+	width: $container;
+    bottom: 700px;
+}
+
+#aboutme img {
+	position: relative;
+	bottom: 130px
+}
+
+#blackbar1{
+	background-color: $primary-color;
+	position: relative;
+	width: 455px;
+	height: 40px;
+	top: 245px;
+    left: $container*.55;
+}
+
+#blackbar2{
+	background-color: $primary-color;
+	position: relative;
+	width: 480px;
+	height: 240px;
+	top: 295px;
+    left: $container*.55;
+}
+
+#blackbar3{
+	background-color: $primary-color;
+	position: relative;
+	width: 200px;
+	height: 40px;
+	top: 10px;
+    left: $container*.166;
+    z-index: 100;
+}
+
+#aboutme {
+	position: relative;
+	height: $bg-height + 30px;
+	bottom: 440px;
+}
+
+#aboutme h1 {
+	font-family: $primary-font;
+	font-size: 2.5rem;
+	color: $primary-color;
+	width: 455px;
+	position: relative;
+	left: $container*.55;
+	bottom: 750px;
+}
+
+#aboutme h2 {
+	font-family: $primary-font;
+	font-size: 3rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container*.83;
+	bottom: 930px;
+	opacity: .07;
+}
+
+#aboutme p {
+	font-family: $font-stack;
+	font-size: 1.5rem;
+	color: $primary-color;
+	position: relative;
+	width: $container*.3;
+    left: $container*.55;
+    bottom: 748px;
+    line-height: $line-spacing;
+}
+
+
+.page3 {
+	background-image: url(../img/KSKlogo.jpg),
+	 url(../img/Media-Kit-Ino-page1.jpg),
+	 url(../img/oops.jpg);
+	background-repeat: no-repeat;
+	background-size: 14%, 25%, 10%; 
+	background-position: 280px 136px, 280px 370px, 520px 200px;
+	position: relative;
+	left: $container*2;
+	width: $container;
+	bottom: 1900px;
+}
+
+#work {
+	position: relative;
+	height: $bg-height + 30px;
+}
+
+#work h1 {
+	font-family: $primary-font;
+	font-size: 2.5rem;
+	position: relative;
+	left: $container*.55;
+	bottom: ($bg-height*2) + 665px;
+	width: 400px;
+}
+
+#work h2 {
+	font-family: $primary-font;
+	font-size: 3rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container*.83;
+	bottom: ($bg-height*2.3) + 619px;
+	opacity: .07;
+}
+
+#work p {
+	font-family: $font-stack;
+	font-size: 1.5rem;
+	position: relative;
+	width: $container*.3;
+    left: $container*.55;
+    bottom: ($bg-height*2) + 665px; 
+    line-height: $line-spacing;
+}
+
+.toparrow {
+	position: relative;
+	top: 25px;
+	width: 200px;
+	left: $container*.44;
+}
+
+.page4 {
+	position: relative;
+	left: $container*3;
+	background-color: $secondary-color;
+	width: $container;
+	bottom: 2200px;
+	
+}
+
+#contact {
+	position: relative;
+	bottom: 498px;
+	height: $bg-height;
+}
+
+#bar1 {
+	position: relative; 
+	width: $container*.6;
+	height: $bg-height;
+	background-color: $primary-color;
+	top: 19px;
+}
+
+#contact h1 {
+	font-family: $primary-font;
+	font-size: 3rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container*.83;
+	bottom: $bg-height*.92;
+	opacity: .07;
+}
+
+
+
+#info h1 {
+	font-family: $primary-font;
+	font-size: 2.5rem;
+	position: relative;
+	left: $container*.65;
+	bottom: 615px;
+	width: 300px;
+	opacity: 1;
+}
+
+#info p {
+	font-family: $font-stack;
+	font-size: 1.5rem;
+	position: relative;
+	width: $container*.3;
+    left: $container*.65;
+    bottom: 595px;
+    line-height: $line-spacing;
+}
+
+form {
+	color: $secondary-color;
+	position: relative;
+	bottom: $bg-height;
+	left: $container*.21;
+}
+
+#contact label {
+	font-family: $primary-font;
+	font-size: 1.5rem;
+}
+
+#contact input  {
+    font-family: $font-stack;
+    width: $container*.2;
+    padding: 10px 15px;
+    margins: 8px 0;
+    box-sizing: border-box;
+}
+
+#contact input[name=Subject] {
+	position: relative; 
+	height: $bg-height*.3;
+	padding-bottom: 200px;
+	resize: none;
+}
+
+.contentpage {
+	position: relative; 
+	width: $container;
+	height: $bg-height*3;
+	background-color: $primary-color;
+	bottom: ($contentpage*2) + 850px;
+	z-index: 1;
+}
+
+.freebird {
+	background-image: url(../img/ASA-FlyerV3.jpg),
+	url(../img/KSKlogo.jpg),
+	url(../img/ASA-flyer-Final.png);
+	background-position: 100px 50px, 116px 430px, 400px 130px;
+	background-repeat: no-repeat;
+	background-size: 18%, 17%, 25%; 
+	position: relative;
+	height: $bg-height;
+	bottom: $bg-height;
+	z-index: 200;
+	background-color: $primary-color;
+}
+
+.freebird img {
+	position: absolute;
+	left: $container*.465;
+}
+
+.freebird h1 {
+	position: relative;
+	font-family: $primary-font;
+	color: $secondary-color;
+	font-size: 3rem;
+	left: $container*.55;
+	top: 200px;
+}
+
+.freebird p {
+	position: relative;
+	font-family: $font-stack;
+	color: white;
+	font-size: 1.5rem;
+	left: $container*.55;
+	width: 300px;
+	top: 250px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) and (min-width: 481px){
+	
+	.page1 {
+	background-color: $primary-color;
+	width: 600px;	
+}
+
+.background {
+	background-image: url(../img/brand-photo.jpg);
+	background-repeat: no-repeat;
+	background-position: -85px;
+	background-size: $container--2;
+	background-color: $primary-color;
+	opacity: .1;
+	width: 600px;
+	height: $container--2;
+}
+
+
+header {
+	color: $secondary-color;
+	position: relative;
+	left: $container--2*.165;
+	bottom: 530px;
+	width: 350px;
+}
+
+header h1 {
+	font-family: 'Bauhaus 93';
+	font-size: 50px;
+}
+
+.logo {
+	position: relative;
+	left: 70px;
+    bottom: 520px;
+	width:  $width--2;
+}
+
+nav {
+	float: left;
+	position: fixed;
+	z-index: 100;
+}
+
+.icons div {
+	position: fixed;
+	z-index: 10000px;
+}
+
+.home {
+	left: $nav--2*.5;
+	width: $width;
+	top: 9px;
+}
+
+.aboutme {
+	left: $nav--2*1.5;
+	width: $width;
+	top: 6px;
+}
+
+.work {
+	left: $nav--2*2.5;
+	width:  $width;
+	top: 10px;
+}
+
+.contactme {
+	left: $nav--2*3.5;
+	width: $width;
+	top: 5px;
+}
+
+.rightarrow {
+	left: $nav--2*3.42;
+	width: $width;
+	top: 650px
+}
+
+.leftarrow {
+	left:$nav--2*.07;
+	width: $width;
+	top: 650px;
+}
+
+
+
+
+
+
+
+.page2 {
+	position: relative;
+	left: $container--tablet;
+	width: $container--tablet;
+    bottom: 700px;
+}
+
+#aboutme img {
+	position: relative;
+	top: 70px;
+	right: 30px;
+}
+
+#blackbar1{
+	background-color: $primary-color;
+	position: relative;
+	width: 455px;
+	height: 40px;
+	top: 125px;
+    left: $container--tablet*.08;
+}
+
+#blackbar2{
+	background-color: $primary-color;
+	position: relative;
+	width: 480px;
+	height: 240px;
+	top: 130px;
+    left: $container--tablet*.08;
+}
+
+#blackbar3{
+	background-color: $primary-color;
+	position: relative;
+	width: 200px;
+	height: 40px;
+	top: 200px;
+    left: $container--tablet*.4;
+    z-index: 100;
+}
+
+#aboutme {
+	position: relative;
+	height: $bg-height + 30px;
+	bottom: 440px;
+}
+
+#aboutme h1 {
+	font-family: $primary-font;
+	font-size: 2.5rem;
+	color: $primary-color;
+	width: 455px;
+	position: relative;
+	left: 50px;
+	bottom: 870px;
+}
+
+#aboutme h2 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container--tablet*.73;
+	bottom: 970px;
+	opacity: .07;
+}
+
+#aboutme p {
+	font-family: $font-stack;
+	font-size: 1rem;
+	color: $primary-color;
+	position: relative;
+	width: $container--tablet*.6;
+    left: 50px;
+    bottom: 880px;
+    line-height: $line-spacing;
+}
+
+.page3 {
+	background-image: url(../img/KSKlogo.jpg),
+	 url(../img/Media-Kit-Ino-page1.jpg),
+	 url(../img/oops.jpg);
+	background-repeat: no-repeat;
+	background-size: 28%, 50%, 20%; 
+	background-position: 140px 350px, 140px 525px, 320px 398px;
+	position: relative;
+	left: $container--tablet*2;
+	width: $container--tablet;
+	bottom: 1900px;
+}
+
+#work {
+	position: relative;
+	height: $bg-height + 30px;
+}
+
+#work h1 {
+	font-family: $primary-font;
+	font-size: 2.5rem;
+	position: relative;
+	left: $container--tablet*.08;
+	bottom: ($bg-height*2) + 788px;
+	width: 400px;
+}
+
+#work h2 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container--tablet*.83;
+	bottom: ($bg-height*2.3) + 660px;
+	opacity: .07;
+}
+
+#work p {
+	font-family: $font-stack;
+	font-size: 1rem;
+	position: relative;
+	width: $container--tablet*.6;
+    left: $container--tablet*.08;
+    bottom: ($bg-height*2) + 797px; 
+    line-height: $line-spacing;
+}
+
+.toparrow {
+	position: relative;
+	top: -10px;
+	width: 200px;
+	left: $container--2*.275;
+}
+
+.contentpage {
+	position: relative; 
+	width: $container--tablet;
+	height: $bg-height*3;
+	background-color: $primary-color;
+	bottom: ($contentpage*2) + 880px;
+	z-index: 1;
+}
+
+.freebird {
+	background-image: url(../img/ASA-FlyerV3.jpg),
+	url(../img/KSKlogo.jpg),
+	url(../img/ASA-flyer-Final.png);
+	background-position: 100px 250px, 67px 467px, 270px 370px;
+	background-repeat: no-repeat;
+	background-size: 24%, 22%, 30%; 
+	position: relative;
+	height: $bg-height;
+	bottom: $bg-height;
+	z-index: 200;
+	background-color: $primary-color;
+}
+
+.freebird img {
+	position: absolute;
+	left: $container*.465;
+}
+
+.freebird h1 {
+	position: relative;
+	font-family: $primary-font;
+	color: $secondary-color;
+	font-size: 3rem;
+	left: $container*.55;
+	top: 30px;
+}
+
+.freebird p {
+	position: relative;
+	font-family: $font-stack;
+	color: white;
+	font-size: 1.5rem;
+	left: $container*.55;
+	width: 300px;
+	top: 60px;
+}
+
+.page4 {
+	position: relative;
+	left: $container--tablet*3;
+	background-color: $secondary-color;
+	width: $container;
+	bottom: 2230px;
+	
+}
+
+#contact {
+	position: relative;
+	bottom: 498px;
+	height: $bg-height;
+}
+
+#bar1 {
+	position: relative; 
+	width: $container*.2;
+	height: $bg-height + 30px;
+	background-color: $primary-color;
+	top: 19px;
+}
+
+#contact h1 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container--tablet*.76;
+	bottom: $bg-height*.975;
+	opacity: .07;
+}
+
+
+
+#info h1 {
+	font-family: $primary-font;
+	font-size: 2.5rem;
+	position: relative;
+	left: $container--tablet*.56;
+	bottom: 615px;
+	width: 300px;
+	opacity: 1;
+}
+
+#info p {
+	font-family: $font-stack;
+	font-size: 1rem;
+	position: relative;
+	width: $container--tablet*.4;
+    left: $container--tablet*.56;
+    bottom: 595px;
+    line-height: $line-spacing;
+}
+
+form {
+	color: $secondary-color;
+	position: relative;
+	bottom: 800px;
+	left: $container--tablet*.08;
+}
+
+#contact label {
+	font-family: $primary-font;
+	font-size: 1.5rem;
+}
+
+#contact input  {
+    font-family: $font-stack;
+    width: $container--tablet*.4;
+    padding: 10px 15px;
+    margins: 8px 0;
+    box-sizing: border-box;
+}
+
+#contact input[name=Subject] {
+	position: relative; 
+	height: $bg-height*.3;
+	padding-bottom: 200px;
+	resize: none;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+	
+	.page1 {
+	background-color: $primary-color;
+	width: $container--phone;	
+}
+
+.background {
+	background-image: url(../img/brand-photo.jpg);
+	background-repeat: no-repeat;
+	background-size: $container--phone*1.5;
+	background-position: -90px;
+	background-color: $primary-color;
+	opacity: .1;
+	width: $container--phone;
+	height: 700px;
+}
+
+
+header {
+	color: $secondary-color;
+	position: relative;
+	left: $container--2*.09;
+	bottom: 530px;
+	width: 350px;
+}
+
+header h1 {
+	font-family: 'Bauhaus 93';
+	font-size: 50px;
+}
+
+.logo {
+	position: relative;
+	left: 1px;
+    bottom: 520px;
+	width:  $width--2;
+}
+
+nav {
+	float: left;
+	position: fixed;
+	z-index: 100;
+}
+
+.icons div {
+	position: fixed;
+	z-index: 10000px;
+}
+
+.home {
+	left: $nav--2*.1;
+	width: $width;
+	top: 9px;
+}
+
+.aboutme {
+	left: $nav--2*1.1;
+	width: $width;
+	top: 6px;
+}
+
+.work {
+	left: $nav--2*2.1;
+	width:  $width;
+	top: 10px;
+}
+
+.contactme {
+	left: $nav--2*3.1;
+	width: $width;
+	top: 5px;
+}
+
+.rightarrow {
+	left: $nav--2*2.42;
+	width: $width;
+	top: 550px
+}
+
+.leftarrow {
+	left:$nav--2*.07;
+	width: $width;
+	top: 550px;
+}
+
+
+
+
+
+
+
+.page2 {
+	position: relative;
+	left: $container--phone;
+	width: $container--phone;
+    bottom: 700px;
+}
+
+#aboutme img {
+	position: relative;
+	top: 100px;
+	right: 100px;
+}
+
+#blackbar1{
+	background-color: $primary-color;
+	position: relative;
+	width: 400px;
+	height: 40px;
+	top: 188px;
+    left: $container--tablet*.08;
+}
+
+#blackbar2{
+	background-color: $primary-color;
+	position: relative;
+	width: 400px;
+	height: 240px;
+	top: 200px;
+    left: $container--tablet*.08;
+}
+
+#blackbar3{
+	background-color: $primary-color;
+	position: relative;
+	width: 200px;
+	height: 40px;
+	top: 230px;
+    left: $container--tablet*.28;
+    z-index: 100;
+}
+
+#aboutme {
+	position: relative;
+	height: $bg-height + 30px;
+	bottom: 440px;
+}
+
+#aboutme h1 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 455px;
+	position: relative;
+	left: 50px;
+	bottom: 800px;
+}
+
+#aboutme h2 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container--phone*.67;
+	bottom: 875px;
+	opacity: .07;
+}
+
+#aboutme p {
+	font-family: $font-stack;
+	font-size: 1rem;
+	color: $primary-color;
+	position: relative;
+	width: $container--tablet*.6;
+    left: 50px;
+    bottom: 820px;
+    line-height: $line-spacing;
+}
+
+.page3 {
+	background-image: url(../img/KSKlogo.jpg),
+	 url(../img/Media-Kit-Ino-page1.jpg),
+	 url(../img/oops.jpg);
+	background-repeat: no-repeat;
+	background-size: 28%, 50%, 20%; 
+	background-position: 140px 350px, 140px 525px, 320px 398px;
+	position: relative;
+	left: $container--phone*2;
+	width: $container--phone;
+	bottom: 1900px;
+}
+
+#work {
+	position: relative;
+	height: $bg-height + 30px;
+}
+
+#work h1 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	position: relative;
+	left: $container--tablet*.08;
+	bottom: ($bg-height*2) + 718px;
+	width: 400px;
+}
+
+#work h2 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container--tablet*.67;
+	bottom: ($bg-height*2.3) + 560px;
+	opacity: .07;
+}
+
+#work p {
+	font-family: $font-stack;
+	font-size: 1rem;
+	position: relative;
+	width: $container--tablet*.6;
+    left: $container--tablet*.08;
+    bottom: ($bg-height*2) + 738px; 
+    line-height: $line-spacing;
+}
+
+.toparrow {
+	position: relative;
+	top: 70px;
+	width: 200px;
+	left: $container--2*.22;
+}
+
+.contentpage {
+	position: relative; 
+	width: $container--tablet;
+	height: $bg-height*3;
+	background-color: $primary-color;
+	bottom: ($contentpage*2) + 880px;
+	z-index: 1;
+}
+
+.freebird {
+	background-image: url(../img/ASA-FlyerV3.jpg),
+	url(../img/KSKlogo.jpg),
+	url(../img/ASA-flyer-Final.png);
+	background-position: 120px 390px, 132px 587px, 280px 470px;
+	background-repeat: no-repeat;
+	background-size: 24%, 22%, 30%; 
+	position: relative;
+	height: $bg-height;
+	bottom: $bg-height;
+	z-index: 200;
+	background-color: $primary-color;
+}
+
+.freebird img {
+	position: absolute;
+	left: $container*.465;
+}
+
+.freebird h1 {
+	position: relative;
+	font-family: $primary-font;
+	color: $secondary-color;
+	font-size: 3rem;
+	left: $container*.55;
+	bottom: 20px;
+}
+
+.freebird p {
+	position: relative;
+	font-family: $font-stack;
+	color: white;
+	font-size: 1.5rem;
+	left: $container*.55;
+	width: 300px;
+}
+
+.page4 {
+	position: relative;
+	left: $container--phone*3;
+	background-color: $secondary-color;
+	width: $container;
+	bottom: 2230px;
+	
+}
+
+#contact {
+	position: relative;
+	bottom: 498px;
+	height: $bg-height;
+}
+
+#bar1 {
+	position: relative; 
+	width: $container--phone*.51;
+	height: $bg-height + 30px;
+	background-color: $primary-color;
+	top: 19px;
+}
+
+#contact h1 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $primary-color;
+	width: 700px;
+	position: relative;
+	left: $container--tablet*.58;
+	bottom: $bg-height*.860;
+	opacity: .07;
+}
+
+
+
+#info h1 {
+	font-family: $primary-font;
+	font-size: 2rem;
+	position: relative;
+	left: $container--tablet*.42;
+	bottom: 615px;
+	width: 300px;
+	opacity: 1;
+}
+
+#info p {
+	font-family: $font-stack;
+	font-size: 1rem;
+	position: relative;
+	width: $container--tablet*.3;
+    left: $container--tablet*.42;
+    bottom: 595px;
+    line-height: $line-spacing;
+}
+
+form {
+	color: $secondary-color;
+	position: relative;
+	bottom: 800px;
+	left: $container--tablet*.05;
+}
+
+#contact label {
+	font-family: $primary-font;
+	font-size: 1.5rem;
+}
+
+#contact input  {
+    font-family: $font-stack;
+    width: $container--phone*.4;
+    padding: 7px 10px;
+    margins: 8px 0;
+    box-sizing: border-box;
+}
+
+#contact input[name=Subject] {
+	position: relative; 
+	height: $bg-height*.3;
+	padding-bottom: 200px;
+	resize: none;
+}
+}
+
+
+	
+	
+

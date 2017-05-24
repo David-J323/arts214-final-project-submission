@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <script src="js/jquery-1.10.2.js"></script>
+   <script src="js/scripts.js"></script>
+   <script src="js/jquery.horizonScroll.js"></script>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+   <title>David Jaramillo Portfolio</title>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+</head>
+<body>
+   <nav class="icons">
+         <div class="home">
+            <ul><img src="img/home-icon.png" alt="homeicon"></ul>
+         </div>
+         <div class="aboutme">
+            <ul><img src="img/about-icon.png" alt="abouticon"></ul>
+         </div>
+         <div class="work">
+            <ul><img src="img/work-icon.png" alt="workicon"></ul>
+         </div>
+         <div class="contactme">
+            <ul><img src="img/contact-icon.png" alt="contacticon"></ul>
+         </div>
+         <div class="rightarrow">
+            <ul><img src="img/arrow-right-icon.png" alt="arrrowright"></ul>
+         </div>
+         <div class="leftarrow">
+            <ul><img src="img/arrow-left-icon.png" alt="arrowleft"></ul>
+         </div>
+      </nav> 
+   <section class="page1">
+      <div class="background">
+      </div>   
+      <div class="logo">
+         <img src="img/logo.png" alt="logo">
+      </div>
+      <header>
+         <h1>David Jaramillo</h1>
+      </header>
+   </section>  
+   <section class="page2">
+      <div id="aboutme">
+      <div id="blackbar1">
+      </div>
+      <div id="blackbar2">
+      </div>
+      <div id="blackbar3">
+      </div>
+      <img src="img/photo-for-website.png" alt="myphoto">
+         <h1>Who the hell am I you ask</h1>
+         <h2>About Me</h2>
+            <p>My name is David Jaramillo, a New York based designer living in Queens. I have been studying the world of design for three years now and have about a year's experience in the field, working in Brooklyn and Manhattan. I currently attend Queens College as a junior aiming to earn my B.A in Design.  </p>
+      </div>      
+   </section>
+   <section class="page3">
+      <div id="work">
+      <div class="toparrow">
+         <img src="img/arrow-up.png" alt="arrowup">
+      </div>
+      <div class="contentpage">
+         <div class="freebird">
+         <div class="toparrow2">
+         <img src="img/arrow-up.png" alt="arrowup">
+         </div>
+            <h1>Free Bird - 2016</h1>
+            <p>dklmvsdkmspsm;vmvsd;vmlnsnvldsdnlvksdndjvlksnvldn
+            lfdkjnvlkjdnljkdvsnfjvnsfdlkjfvnlkjsdfnvlksjdnvflkj
+            sfjbkdsbfdkjfvbdkvfdjksbjkfsdnfvkjdsbfdjkbfvkjsbdlkf
+            jbsljbfv</p>
+         </div>
+         <div class="emporiastudios">
+            <h1>Emporia Studios - 2016-2017</h1>
+            <p>slkvmclsz;kmvlkzsnv;ln;kldnfvkmsod;fok,m'osmssoimc
+            skjnvsoncdszio;dnszncolncoinsoincs;oinci;owdnsc
+            sonsonwcoinwscoinwoiwnoiwnoicnidcnslinsclicnlsnsc;lncs
+            sbnrsosnonsc</p>
+         </div>
+         <div class="personal">
+            <h1></h1>
+            <p></p>
+         </div>
+      </div>          
+         <h1>Collection of Work</h1>
+         <h2>Work</h2>
+            <p>This gallery of work are projects I have done over the years, whether it was in the classroom or in the professional world.</p>
+      </div>
+   </section> 
+   <content>
+   </content>
+   <section class="page4">
+      <div id="contact">
+      <div id="bar1">
+      </div>
+      <h1>Contact</h1>
+         <div id="info">
+            <h1>Contact Form</h1>
+               <p>If you have a project you would like to discuss with me about feel free to contact me either 
+               here directly or via email at david.jaramillo323@yahoo.com</p>
+         </div>
+      <form>
+         <label for="firstName">First Name</label><br>
+         <input type="text" id="firstName" name="firstName"><br>
+
+         <label for="lastName">Last Name</label><br>
+         <input type="text" id="lastName" name="lastName"><br>
+
+         <label for="Subject">Subject</label><br>
+         <input type="text" id="Subject" name="Subject">
+      </form>      
+      </div>
+   </section>
+   <script type="text/javascript">
+      $('section').horizon();
+      $.fn.horizon.defaults = {
+    scrollTimeout: null,
+    scrollEndDelay: 250,
+    scrollDuration: 1000,
+    i: 0,
+    limit: 0,
+    docWidth: 0,
+    sections: null,
+    swipe: true,
+    fnCallback: function (i) {}
+};
+   </script>
+</body>
+</html>      
+
+
+
+
